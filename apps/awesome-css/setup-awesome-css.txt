@@ -1,11 +1,6 @@
 Curent Version: 1.0
 Setup instructions
 -------------------
-Setup 'Tokens' module
-
-1. Go to Awesome Enterprise -> core
-2. Create "Tokens" module (make sure slug is tokens)
-3. copy the code in tokes.module.html file in the moduel and save.
 
 Setup App
 1. Go to Awesome Enterprise -> core and edit 'apps' module and put following code in it.
@@ -22,3 +17,9 @@ Setup App
 In case of updating
 
 1. Thrash the awesome-css modules and empty the thrash
+
+Setup 'Tokens' module in case xml import does not work
+
+1. Go to Awesome Enterprise -> core
+2. Create "Tokens" module (make sure slug is tokens)
+3. copy the code in tokes.module.html file in the moduel and save.
