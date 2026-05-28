@@ -1,0 +1,17 @@
+Curent Version: 1.0
+Setup instructions
+-------------------
+1. Go to Awesome Enterprise -> core and edit 'apps' module and put following code in it.
+[app.register awesome-css title="Awesome CSS"]
+	[collection]
+    [config   post_type=c_set /]
+    [modules  post_type=m_set /]
+  [/collection]
+[/app.register]
+2. Purge the Global Cache
+3. Import awesome-css.xml via wordpress importer.
+4. You may have to do it twice, due to limitation of WordPress.
+
+In case of updating
+
+1. Thrash the awesome-css modules and empty the thrash
